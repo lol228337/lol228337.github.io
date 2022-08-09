@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Comfortaa', cursive;
+		}
+		:root {
+			--main-color: #E6E7E8;
+			--second-color: #FFFFFF;
+		}
+		header {
+			width: 100%;
+			padding: 1rem 2rem;
+			background-color: var(--main-color);
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		nav > a {
+			padding: 0.5rem;
+			border: 2px solid transparent;
+			text-decoration: none;
+			font-size: 1.5rem;
+			transition: 0.3s ease;
+			color: black;
+		}
+		nav > a:hover {
+			background-color: #BCBEC0;
+			border-bottom: 4px solid white;
+			border-radius: 4px;
+		}
+		.header_img_container {
+			width: 100px;
+		}
+		img {
+			width: 40%;
+			height: auto;
+			border-radius: 16px;
+		}
+		h1 {
+			text-align: center;
+			font-size: 30px;
+			margin: 50px
+		}
+		.main {
+			width: 90%
+			margin: 2rem auto;
+		}
+		p {
+		font-family: 'Comfortaa', cursive;
+		text-align: center;
+		font-size: 25px;
+		margin: 40px;
+	}
+	.hero {
+		display: flex;
+		align-items: center;
+		margin: 2rem auto;
+	}
+	.hero-left, .hero-right {
+		flex: 50%;
+		width: 50%;
+	}
+	.hero-right > img {
+		width: 100%;
+		height: 500px;
+		object-fit: cover;
+	}
+	.hero-right{
+		padding: 1rem;
+	}
+	.hero-left > h1 {
+		font-size: 2.5rem;
+		text-transform: uppercase;
+		letter-spacing: 0.05rem;
+		padding-right: 1rem;
+		line-height: 141%
+	}
+	.quote {
+		width: 50%;
+		margin: 2rem auto;
+	}
+	.quote > h2 {
+		text-align: center;
+		font-size: 1.2rem;
+		font-weight: 500;
+		height: fit-content;
+		position: relative;
+		line-height: 141%;
+	}
+	.quote > h2::after{
+
+		font-size: 5rem;
+		position: absolute;
+		right: -10px;
+	}
+	.quote > h2::before{
+
+		font-size: 5rem;
+		position: absolute;
+		left: -30px;
+		top: -30px;
+	}
+	.urus {
+		text-align: center;
+		font-size: 50px;
+	}
+	.img3 {
+		margin: 15px 0;
+		width: 80%;
+		height: 80%;
+	}
+	.img3div {
+	  text-align: center;
+	}
+	.active {
+					border-bottom: 4px solid white;
+	}
+	.harakteristiki {
+		font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.12rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+	margin: 5px auto;
+	padding: 10px;
+	}
+	.text {
+	font-size: 2.4rem;
+    text-align: center;
+    color: #202020;
+    width: 980px;
+	margin: 5px auto;
+	padding: 20px;
+	}
+	.img2ha {
+		margin: 60px 0;
+		width: 50%;
+		height: 50%;
+	}
+	.p-descriptions {
+		width:80%;
+		margin: 1rem auto;
+		line-height: 131%;
+	}
