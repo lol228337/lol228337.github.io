@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/tone/0.8.0/Tone.min.js'></script>
+	<script type="text/javascript" src="flowplay/flowplayer-3.2.2.min.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HAPPY BIRTHDAY</title>
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+	body {
+	font-family: 'Comfortaa', cursive;
+	background-image: url("https://phonoteka.org/uploads/posts/2021-05/1620216102_2-phonoteka_org-p-den-rozhdeniya-fon-minimalizm-2.jpg");
+
+	}
+	p {
+		text-align: center;
+		font-size: 60px;
+	}
+	img {
+		border-radius: 8px;
+		width: 30%;
+		height: auto;
+		margin-top: 47px;
+	}
+	div {
+		text-align: center;
+	}
+	.tap {
+		font-size: 20px;
+	}
+	.huh {
+		font-size: 20px;
+	}
+	</style>
+</head>
+<body>
+<div id="pocik"><img src="ahahaha.jpg"></div>
+<p class="huh">(нажми на картинку)</p>
+  
+<audio id="pocikAudo">
+  <source src="D:\Downloads\Telegram Desktop\musical.mp3" type="audio/ogg">
+</audio>
+  
+<script>
+    var pocik = document.getElementById('pocik'),
+      pocikAudio = document.getElementById('pocikAudo');
+    pocik.addEventListener('click', fPlay, false);
+    function fPlay() {
+      pocikAudio.play();
+    }
+</script>
+	<p><b>С ЮБИЛЕЕМ!!!</b></p>
+     <p><b>40 ЛЕТ!</b></p>
+
+</body>
+</html>
